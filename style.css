@@ -1,0 +1,19 @@
+body {
+  font: 1.2em Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, Helvetica, Arial, Verdana, san-serif;
+}
+
+a {
+  color: #0366d6;
+}
+
+div#content {
+  width: 50%;
+  margin: auto;
+}
+
+/* Portrait mobile phones and small-sized browser windows */
+@media screen and (max-device-width: 640px) and (orientation: portrait), screen and (max-width: 640px) {
+  div#content {
+    width: 85%;
+  }
+}
